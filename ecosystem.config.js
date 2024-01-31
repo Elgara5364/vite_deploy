@@ -3,11 +3,14 @@
     {
       name: "vite-deploy",
 
-      script: "npx",
+      script: "start",
 
       interpreter: "none",
 
-      args: "serve -s build -p 3000",
+      args: "start ",
+      PM2_SERVE_PATH: "./dist",
+      PM2_SERVE_PORT: 5173,
+      PM2_SERVE_SPA: "true",
     }
   ];
 }
