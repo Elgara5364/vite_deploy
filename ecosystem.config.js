@@ -1,5 +1,5 @@
 {
-  apps[
+  apps: [
     {
       name: "vite-deploy",
 
@@ -8,6 +8,6 @@
       interpreter: "none",
 
       args: "serve -s build -p 5174",
-    }
+    },
   ];
 }
