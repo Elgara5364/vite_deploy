@@ -1,4 +1,4 @@
-{
+module.exports = {
   apps: [
     {
       name: "vite_deploy",
@@ -9,5 +9,5 @@
 
       args: "serve -s build -p 5173",
     },
-  ];
-}
+  ],
+};
